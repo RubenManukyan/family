@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Routes>
           <Route path="/" index element={<Home />} />
+          <Route path="/family" element={<Home />} />
           <Route path="/year/:year" element={<PageInside />} />
       </Routes>
     </div>
