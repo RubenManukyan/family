@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="familyBack">
       <Link to="/">
-        <img src={logo} alt="logo" height="100" />
+        <img src={logo} alt="logo" className='logo' />
       </Link>
       <div className="timeline">
         <Link to="/year/2018">2018</Link>

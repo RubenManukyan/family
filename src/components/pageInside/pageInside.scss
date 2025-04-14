@@ -4,8 +4,12 @@
   background: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  margin: 120px;
+  margin: 30px;
   padding: 20px;
+  @media screen and (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+    align-items: center;
+  }
   img{
     width: 100%;
     border-radius: 10px;
